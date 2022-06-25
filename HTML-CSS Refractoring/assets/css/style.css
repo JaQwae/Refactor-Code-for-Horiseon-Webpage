@@ -1,0 +1,152 @@
+/*This section is for global variables*/
+:root {
+    color: white; 
+    --whiteText
+}
+
+:root{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --mainFontForSite
+}
+
+
+
+
+
+/*Background color of the page*/
+body {
+    background-color: #d9dcd6
+}
+
+/*This is for the boxes around the main title and links */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*This controls header color, and text color and font*/
+.header {
+    padding: 20px;
+    font-family:font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande' 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+}
+
+
+/*Affects Horiseon title*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+
+
+/*Affects list items in header*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: var(--whiteText);
+    text-decoration: none;
+}
+
+
+
+/*Websites main image*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/*Main container structure*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.mainSectionTitles{ 
+    margin-bottom: 20px;
+    font-size: 36px;
+} 
+
+.mainSections {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+}
+
+.mainSectionImagesLeft{
+    max-height: 200px;
+    float: left;
+    margin-right: 25px;
+}
+
+.mainSectionImagesRight{
+    max-height: 200px;
+    float: left;
+    margin-right: 25px;
+}
+
+
+
+/*Benefit section structure*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    background-color: #2589bd;
+}
+
+.benefitSections {
+    margin-bottom: 32px;
+}
+
+.benefitTitles{
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
+.benefitImages{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+
+/*Footer*/
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande' 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    display: none
+}
+
+.footer h4 {
+    font-size: 20px;
+}
