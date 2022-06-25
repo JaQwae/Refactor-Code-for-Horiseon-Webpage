@@ -29,4 +29,5 @@ Image was rather large displaying on both my desktop and laptop screen, so I spl
 ## Credit
 
 -University of Texas Web Development Bootcamp
+
 -JaQwae Ellison

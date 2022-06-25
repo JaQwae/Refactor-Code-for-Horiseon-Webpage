@@ -5,7 +5,7 @@
 }
 
 :root{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     --mainFontForSite
 }
 
@@ -18,6 +18,8 @@ body {
     background-color: #d9dcd6
 }
 
+
+
 /*This is for the boxes around the main title and links */
 * {
     box-sizing: border-box;
@@ -28,9 +30,10 @@ body {
 /*This controls header color, and text color and font*/
 .header {
     padding: 20px;
-    font-family:font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande' 'Lucida Sans', Arial, sans-serif;
+    font-family:font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande' 'Lucida Sans', 'Arial', 'sans-serif';
     background-color: #2a607c;
 }
+
 
 
 /*Affects Horiseon title*/
@@ -45,7 +48,7 @@ body {
 
 
 
-/*Affects list items in header*/
+/*Structure list items in header*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -58,6 +61,7 @@ body {
     margin-left: 25px;
 }
 
+/*White text on nav links*/
 a {
     color: var(--whiteText);
     text-decoration: none;
@@ -94,13 +98,13 @@ a {
     height: 300px;
     background-color: #0072bb;
 }
-
+/*Formatting the picture to the left in the first and third section*/
 .mainSectionImagesLeft{
     max-height: 200px;
     float: left;
     margin-right: 25px;
 }
-
+/*Formatting the picture to the left in the second section*/
 .mainSectionImagesRight{
     max-height: 200px;
     float: left;
@@ -137,12 +141,12 @@ a {
 
 
 
-/*Footer*/
+/*Footer structure*/
 
 .footer {
     padding: 30px;
     clear: both;
-    font-family: font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande' 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande' 'Lucida Sans', 'Arial', 'sans-serif';
     text-align: center;
     display: none
 }
